@@ -1,0 +1,76 @@
+.login {
+    background-color: var(--cl-3);
+}
+
+.login-banner {
+    height: 5em;
+}
+
+.login-region {
+    height: calc(100vh - 5em);
+}
+
+.login-region__wrap {
+    width: 100%;
+}
+
+.login-region__lead {
+    color: var(--cl-2);
+    margin-bottom: var(--mb-100);
+}
+
+.login-region__lock {
+    position: absolute;
+    right: 1em;
+}
+
+.login-region__field {
+    position: relative;
+    margin-bottom: var(--mb-050);
+}
+
+.login-region__lock,
+.login-region__label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.login-region__label {
+    left: 1em;
+}
+
+.login-region__input {
+    width: 100%;
+    padding: 1em 3em;
+    border: 1px solid var(--cl-6);
+    border-radius: 50px;
+}
+
+.login-region__reset,
+.login-region__login {
+    display: block;
+    margin-bottom: var(--mb-150);
+}
+
+.login-region__reset {
+    color: var(--cl-6);
+    text-align: right;
+}
+
+.login-region__login {
+    color: var(--cl-3);
+    background-color: var(--cl-5);
+    border-radius: 50px;
+    padding: 1em;
+    text-align: center;
+}
+
+.login-region__start {
+    text-align: center;
+}
+
+.login-region__logup {
+    color: var(--cl-5);
+    margin-left: 0.25em;
+}

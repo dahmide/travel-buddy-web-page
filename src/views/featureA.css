@@ -1,0 +1,26 @@
+:root {
+    --cl-1:#111111;
+    --cl-2:#0066C2;
+    --cl-3:#FFFFFF;
+    --cl-4:#FFD8B1;
+    --cl-5:#FF7518;
+    --cl-6:#8B8B8B;
+
+    --mb-400: 5em;
+    --mb-300: 3em;
+    --mb-150: 1.5em;
+    --mb-100: 1em;
+    --mb-050: 0.5em;
+}
+
+/* Utilities */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.wrap {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+}
