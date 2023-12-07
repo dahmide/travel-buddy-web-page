@@ -7,7 +7,7 @@
 }
 
 .login-region {
-    height: calc(100vh - 5em);
+    min-height: calc(100vh - 5em);
 }
 
 .login-region__wrap {
@@ -16,7 +16,7 @@
 
 .login-region__lead {
     color: var(--cl-2);
-    margin-bottom: var(--mb-100);
+    margin-bottom: var(--mb-150);
 }
 
 .login-region__lock {
@@ -54,8 +54,9 @@
 }
 
 .login-region__reset {
+    width: max-content;
     color: var(--cl-6);
-    text-align: right;
+    margin-left: auto;
 }
 
 .login-region__login {
@@ -68,6 +69,7 @@
 
 .login-region__start {
     text-align: center;
+    color: var(--cl-6);
 }
 
 .login-region__logup {
