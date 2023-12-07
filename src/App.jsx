@@ -5,6 +5,8 @@ import {
     Route
 } from "react-router-dom";
 
+import StepLayout from "./layouts/StepLayout";
+
 import Index from "./views/Index/Index";
 import Login from "./views/Login/Login";
 import StepA from "./views/Steps/StepA";
@@ -16,9 +18,11 @@ const router = createBrowserRouter(
         <Route path="/">
             <Route index element={<Index />} />
             <Route path="login" element={<Login />} />
-            <Route path="stepA" element={<StepA />} />
-            <Route path="stepB" element={<StepB />} />
-            <Route path="stepC" element={<StepC />} />
+            <Route element={<StepLayout />}>
+                <Route path="stepA" element={<StepA />} />
+                <Route path="stepB" element={<StepB />} />
+                <Route path="stepC" element={<StepC />} />
+            </Route>
         </Route>
     )
 );
