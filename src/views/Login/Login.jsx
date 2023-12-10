@@ -46,7 +46,7 @@ const Login = () => {
                             <div className="login-region__start">
                                 New user?
                                 <Link className="login-region__logup" to="#">
-                                    Sign in
+                                    Sign up
                                 </Link>
                             </div>
                         </Form>
