@@ -14,6 +14,8 @@ import StepA from "./views/Steps/StepA";
 import StepB from "./views/Steps/StepB";
 import StepC from "./views/Steps/StepC";
 import Verified from "./views/Steps/verified";
+import Verifyem from "./views/Forgotpw/Verifyem";
+import Forgotpw from "./views/Forgotpw/Forgotpw"
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -21,6 +23,8 @@ const router = createBrowserRouter(
             <Route index element={<Index />} />
             <Route path="welcome" element={<Welcome />} />
             <Route path="login" element={<Login />} />
+            <Route path="verifyem" element={<Verifyem />} />
+            <Route path="forgotpw" element={<Forgotpw />} />
             <Route element={<StepLayout />}>
                 <Route path="stepA" element={<StepA />} />
                 <Route path="stepB" element={<StepB />} />
