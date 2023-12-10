@@ -1,4 +1,4 @@
-import { Form, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import buddy from "../../assets/images/buddy.png"
 import iconBack from "../../assets/images/icon-back-line.svg";
 const Welcome =() =>{
@@ -14,8 +14,8 @@ const Welcome =() =>{
                     <p>Search, find and connect.</p>
                 </div>
                 <div className="welcome_btn flex">
-                    <Link className="login__form-login white" to="">Sign in</Link>
-                    <Link className="login__form-login " to="">Create an account</Link>
+                    <Link className="login__form-login white" to="/login">Sign in</Link>
+                    <Link className="login__form-login " to="/signup">Create an account</Link>
                 </div>
 </section>
 </main>
