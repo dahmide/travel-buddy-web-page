@@ -9,6 +9,7 @@ import StepLayout from "./layouts/StepLayout";
 
 import Index from "./views/Index/Index";
 import Login from "./views/Login/Login";
+import Welcome from "./views/Login/Welcome";
 import StepA from "./views/Steps/StepA";
 import StepB from "./views/Steps/StepB";
 import StepC from "./views/Steps/StepC";
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/">
             <Route index element={<Index />} />
+            <Route path="welcome" element={<Welcome />} />
             <Route path="login" element={<Login />} />
             <Route element={<StepLayout />}>
                 <Route path="stepA" element={<StepA />} />

@@ -45,10 +45,12 @@ a {
 }
 .welcome_info{
     flex-direction: column;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
-
+.welcome_info h2{
+    margin-top: 2rem;
+}
 
 .welcome_btn{
     justify-content: center;
