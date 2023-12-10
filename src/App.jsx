@@ -12,6 +12,7 @@ import Login from "./views/Login/Login";
 import StepA from "./views/Steps/StepA";
 import StepB from "./views/Steps/StepB";
 import StepC from "./views/Steps/StepC";
+import Verified from "./views/Steps/verified";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
                 <Route path="stepA" element={<StepA />} />
                 <Route path="stepB" element={<StepB />} />
                 <Route path="stepC" element={<StepC />} />
+                <Route path="verified" element={<Verified/>} />
             </Route>
         </Route>
     )
