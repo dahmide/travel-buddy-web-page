@@ -20,8 +20,7 @@ import Forgotpw from "./views/Forgotpw/Forgotpw"
 const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/">
-            <Route index element={<Login />} />
-            <Route path="welcome" element={<Welcome />} />
+            <Route index element={<Welcome />} />
             <Route path="login" element={<Login />} />
             <Route path="signup" element={<Signup />} />
             <Route path="verifyem" element={<Verifyem />} />

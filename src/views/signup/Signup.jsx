@@ -1,5 +1,5 @@
 import { Form, Link } from "react-router-dom";
-import showIcon from "../../assets/images/icon-lock-line.svg";
+// import showIcon from "../../assets/images/icon-lock-line.svg";
 import hidIcon  from "../../assets/images/icon-hide-line.svg";
 import iconBack from "../../assets/images/icon-back-line.svg";
 
@@ -33,7 +33,7 @@ const Signup = ()=> {
                     <Link className="login__form-login continue" to="">Continue</Link>
                     <div className="form-logup">
                         Already have an account?
-                        <Link className="form-signu" to="">Sign in</Link>
+                        <Link className="form-signu" to="/login">Sign in</Link>
                     </div>
                 </Form>
              

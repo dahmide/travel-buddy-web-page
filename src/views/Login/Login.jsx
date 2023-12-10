@@ -45,7 +45,7 @@ const Login = () => {
                             </Link>
                             <div className="login-region__start">
                                 New user?
-                                <Link className="login-region__logup" to="#">
+                                <Link className="login-region__logup" to="/signup">
                                     Sign up
                                 </Link>
                             </div>
