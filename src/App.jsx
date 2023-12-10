@@ -10,6 +10,7 @@ import StepLayout from "./layouts/StepLayout";
 import Index from "./views/Index/Index";
 import Login from "./views/Login/Login";
 import Welcome from "./views/Login/Welcome";
+import Signup from "./views/signup/Signup";
 import StepA from "./views/Steps/StepA";
 import StepB from "./views/Steps/StepB";
 import StepC from "./views/Steps/StepC";
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
             <Route index element={<Index />} />
             <Route path="welcome" element={<Welcome />} />
             <Route path="login" element={<Login />} />
+            <Route path="signup" element={<Signup />} />
             <Route path="verifyem" element={<Verifyem />} />
             <Route path="forgotpw" element={<Forgotpw />} />
             <Route element={<StepLayout />}>

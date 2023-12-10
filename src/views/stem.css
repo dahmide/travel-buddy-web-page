@@ -80,6 +80,7 @@ a {
 .form-title {
     color: var(--blue);
     margin-bottom: var(--mb-100);
+    margin-top: 2rem;
 }
 .all_form p{
     margin-bottom: 2rem;
